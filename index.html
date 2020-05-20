@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="icono.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Fitness</title>
+</head>
+<body>
+    <header class="barra_de_menu">
+        <nav id="logo">
+            <ul id="drop">
+                <li><a href="#servicios" id="serv">Servicios</a></li>
+                <li><a href="#productos" id="prod">Productos</a></li>
+                <li><a href="#contacto" id="cont">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="logo_menu"><a href="index.html"><img src="img/logo.svg" alt="Logo pesas"></a></div>
+    </header>
+<section>
+    <figure class="imagen">
+            <div id="linea"></div>
+            <div id="linea2"></div>
+    </figure>
+</section>
+<section class="contenido">
+    <nav id="contacto" onmouseover="hoverIn(this)" onmouseout="hoverOut(this)">
+        <div>
+        <h3>Contacto</h3>
+        </div>
+        <form method="POST" action="#" id="form">
+                <input type="text" id="nombre1" placeholder="Nombre">
+                <input type="text" id="apellido1" placeholder="Apellido">
+                <input type="email" id="email1" placeholder="E-mail" >
+                <textarea id="textarea" rows="6" cols="30" placeholder="Consulta"></textarea> 
+                <button id="enviar" type="button">Enviar</button>
+            </ul>
+        </form>
+    </nav>
+    <nav id="productos" onmouseover="hoverIn(this)" onmouseout="hoverOut(this)">
+        <div>
+        <h3>Productos</h3>
+        </div>
+        <button id="boton"><a href="catalogue.pdf" download="catalogue">Ver catalogo</a></button>
+    </nav>
+    <nav id="servicios" onmouseover="hoverIn(this)" onmouseout="hoverOut(this)">
+        <div>
+        <h3>Servicios</h3>
+        </div>
+        <button id="boton"><a href="servicios.html">Ver servicios</a></button>
+    </nav>
+</section>
+<section>
+    <div id="video">
+        <video id="vid" width="960" height="580" src="vid/vid2.mp4" type="video/mp4" muted autoplay loop></video>
+    </div>
+</section>
+<footer>
+    <nav id="logo2">
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    <div id="media">    
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank" onmouseover="hoverBig(this)" onmouseout="hoverSmall(this)"><span class="icon-instagram"></span></a></li>
+            <li><a href="https://twitter.com" target="_blank" onmouseover= "hoverBig(this)" onmouseout="hoverSmall(this)"><span class="icon-twitter"></span></a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank" onmouseover= "hoverBig(this)" onmouseout="hoverSmall(this)"><span class="icon-whatsapp"></span></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" onmouseover= "hoverBig(this)" onmouseout="hoverSmall(this)"><span class="icon-youtube"></span></a></li>
+    </ul>
+</div>
+</footer>
+<script src="app.js"></script>
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script src="validacion.js"></script>
+</body>
+</html>
