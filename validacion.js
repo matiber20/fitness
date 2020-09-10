@@ -1,3 +1,4 @@
+var prueba = "variable de prueba";
 var usuario = document.getElementById('nombre1');
 var apellido = document.getElementById('apellido1');
 var mail = document.querySelector('#email1');
