@@ -1,4 +1,4 @@
-var prueba = "variable de pru34eba";
+var prueba = "variable de prueba desde test03";
 var usuario = document.getElementById('nombre1');
 var apellido = document.getElementById('apellido1');
 var mail = document.querySelector('#email1');
